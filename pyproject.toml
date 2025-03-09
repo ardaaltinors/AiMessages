@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ardamessage"
+version = "0.1.0"
+description = ""
+authors = ["ardaaltinors <ardaaltinors@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+langchain = "^0.3.19"
+langgraph = "^0.2.74"
+mac-imessage = "^0.3.0"
+python-dotenv = "^1.0.1"
+langchain-google-genai = "^2.0.10"
+lusid = "^1.0.10"
+pyautogui = "^0.9.54"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
